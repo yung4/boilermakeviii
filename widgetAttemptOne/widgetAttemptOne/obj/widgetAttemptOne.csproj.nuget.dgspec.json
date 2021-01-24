@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Emily\\source\\repos\\widgetAttemptOne\\widgetAttemptOne\\widgetAttemptOne.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Emily\\source\\repos\\widgetAttemptOne\\widgetAttemptOne\\widgetAttemptOne.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emily\\source\\repos\\widgetAttemptOne\\widgetAttemptOne\\widgetAttemptOne.csproj",
+        "projectName": "widgetAttemptOne",
+        "projectPath": "C:\\Users\\Emily\\source\\repos\\widgetAttemptOne\\widgetAttemptOne\\widgetAttemptOne.csproj",
+        "packagesPath": "C:\\Users\\Emily\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emily\\source\\repos\\widgetAttemptOne\\widgetAttemptOne\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Emily\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.Gaming.XboxGameBar": {
+              "target": "Package",
+              "version": "[5.3.200605002, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
