@@ -55,9 +55,8 @@ namespace widgetAttemptOne
             num = rand.Next(14);
             myButton.Content = unlockedAgents[num];
 
-            String imageURL = "Assets/" + unlockedAgents[num].ToLower() + ".png";
-            Uri uri = new Uri(@imageURL, UriKind.Relative);
-            ImageSource imgSource = new BitmapImage(uri);
+            string image = "ms-appx:///Assets/" + unlockedAgents[num].ToLower() + ".png";
+            BitmapImage imgSource = new BitmapImage(new Uri(image));
             myImage.Source = imgSource;
         }
     }

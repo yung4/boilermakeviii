@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>CHRIS-PC</Machine>
-    <WindowsUser>chris</WindowsUser>
+    <Machine>DESKTOP-LM8BUOA</Machine>
+    <WindowsUser>Emily</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,127 +10,127 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>3afc900f-814b-499b-bed4-e9cfdf686b9b</PackageIdentityName>
     <PackageIdentityPublisher>CN=Emily</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\bin\x86\Debug\widgetAttemptOne.exe">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\bin\x86\Debug\widgetAttemptOne.exe">
       <PackagePath>entrypoint\widgetAttemptOne.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\.nuget\packages\microsoft.gaming.xboxgamebar\5.3.200605002\runtimes\win10-x86\native\Microsoft.Gaming.XboxGameBar.dll">
+    <AppxPackagedFile Include="C:\Users\Emily\.nuget\packages\microsoft.gaming.xboxgamebar\5.3.200605002\runtimes\win10-x86\native\Microsoft.Gaming.XboxGameBar.dll">
       <PackagePath>Microsoft.Gaming.XboxGameBar.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\Emily\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\.nuget\packages\microsoft.gaming.xboxgamebar\5.3.200605002\lib\uap10.0\Microsoft.Gaming.XboxGameBar.Authentication.winmd">
+    <AppxPackagedFile Include="C:\Users\Emily\.nuget\packages\microsoft.gaming.xboxgamebar\5.3.200605002\lib\uap10.0\Microsoft.Gaming.XboxGameBar.Authentication.winmd">
       <PackagePath>Microsoft.Gaming.XboxGameBar.Authentication.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\.nuget\packages\microsoft.gaming.xboxgamebar\5.3.200605002\lib\uap10.0\Microsoft.Gaming.XboxGameBar.Restricted.winmd">
+    <AppxPackagedFile Include="C:\Users\Emily\.nuget\packages\microsoft.gaming.xboxgamebar\5.3.200605002\lib\uap10.0\Microsoft.Gaming.XboxGameBar.Restricted.winmd">
       <PackagePath>Microsoft.Gaming.XboxGameBar.Restricted.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\.nuget\packages\microsoft.gaming.xboxgamebar\5.3.200605002\lib\uap10.0\Microsoft.Gaming.XboxGameBar.winmd">
+    <AppxPackagedFile Include="C:\Users\Emily\.nuget\packages\microsoft.gaming.xboxgamebar\5.3.200605002\lib\uap10.0\Microsoft.Gaming.XboxGameBar.winmd">
       <PackagePath>Microsoft.Gaming.XboxGameBar.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\breach.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\breach.png">
       <PackagePath>Assets\breach.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\brimstone.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\brimstone.png">
       <PackagePath>Assets\brimstone.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\cypher.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\cypher.png">
       <PackagePath>Assets\cypher.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\jett.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\jett.png">
       <PackagePath>Assets\jett.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\killjoy.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\killjoy.png">
       <PackagePath>Assets\killjoy.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\omen.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\omen.png">
       <PackagePath>Assets\omen.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\phoenix.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\phoenix.png">
       <PackagePath>Assets\phoenix.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\raze.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\raze.png">
       <PackagePath>Assets\raze.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\reyna.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\reyna.png">
       <PackagePath>Assets\reyna.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\sage.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\sage.png">
       <PackagePath>Assets\sage.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\skye.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\skye.png">
       <PackagePath>Assets\skye.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\sova.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\sova.png">
       <PackagePath>Assets\sova.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\valorant_logo.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\valorant_logo.png">
       <PackagePath>Assets\valorant_logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\viper.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\viper.png">
       <PackagePath>Assets\viper.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\yoru.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\yoru.png">
       <PackagePath>Assets\yoru.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\bin\x86\Debug\widgetAttemptOne.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\bin\x86\Debug\widgetAttemptOne.xr.xml">
       <PackagePath>widgetAttemptOne.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\bin\x86\Debug\Widget1.xbf">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\bin\x86\Debug\Widget1.xbf">
       <PackagePath>Widget1.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
@@ -139,63 +139,63 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\.nuget\packages\microsoft.gaming.xboxgamebar\5.3.200605002\buildTransitive\..\private\Microsoft.Gaming.XboxGameBar.Private.winmd">
+    <AppxPackagedFile Include="C:\Users\Emily\.nuget\packages\microsoft.gaming.xboxgamebar\5.3.200605002\buildTransitive\..\private\Microsoft.Gaming.XboxGameBar.Private.winmd">
       <PackagePath>Microsoft.Gaming.XboxGameBar.Private.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\bin\x86\Debug\Core\widgetAttemptOne.exe">
+    <AppxPackagedFile Include="C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\bin\x86\Debug\Core\widgetAttemptOne.exe">
       <PackagePath>widgetAttemptOne.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\chris\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\Emily\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\chris\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\Emily\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\chris\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\Emily\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\chris\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\Emily\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\chris\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\Emily\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\chris\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\Emily\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\chris\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\Emily\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.29301.2</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\chris\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\Emily\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\chris\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\Emily\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.29301.2</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\chris\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\Emily\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\chris\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\Emily\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.29301.2</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\chris\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\Emily\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">

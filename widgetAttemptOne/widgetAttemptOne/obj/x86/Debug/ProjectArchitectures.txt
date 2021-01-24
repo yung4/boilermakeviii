@@ -1,1 +1,1 @@
-C:\Users\chris\Github\boilermakeviii\widgetAttemptOne\widgetAttemptOne\widgetAttemptOne.csproj;x86
+C:\Users\Emily\source\repos\boilermakeviii\widgetAttemptOne\widgetAttemptOne\widgetAttemptOne.csproj;x86
