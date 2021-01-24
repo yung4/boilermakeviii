@@ -11,12 +11,17 @@
     <Grid>
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" />
 
+        
+
         <StackPanel
+            Margin="0,0,0,10"
             HorizontalAlignment="Center"
-            VerticalAlignment="Center"
-            Orientation="Vertical">
-            <TextBlock Padding="0,0,0,5" Text="Widget1" />
-            <Button x:Name="myButton" Click="MyButton_Click">Click Me</Button>
+            VerticalAlignment="Bottom"
+            Orientation="Vertical"
+            DataContext="{RelativeSource Self}">
+            <Image x:Name="myImage" Source="Assets/breach.png" Height="200" Width="200" VerticalAlignment="Top" Margin="10"/>
+            <TextBlock x:Name="myLabel" Margin="0,0,0,10">Click the button to select a random agent!</TextBlock>
+            <Button x:Name="myButton" Click="MyButton_Click" HorizontalAlignment="Center">Randomize</Button>
         </StackPanel>
     </Grid>
 </Page>

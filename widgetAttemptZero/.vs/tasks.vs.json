@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-widgetAttemptOne",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-widgetAttemptOne",
+      "appliesTo": "widgetAttemptOne.sln",
+      "type": "launch"
+    }
+  ]
+}

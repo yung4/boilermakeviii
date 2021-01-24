@@ -8,7 +8,7 @@
       d:DesignHeight="350" d:DesignWidth="500"
       Title="Home">
 
-    <Grid Margin="10,0,10,10">
+    <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="230" />
             <ColumnDefinition />
@@ -23,33 +23,61 @@
             <ImageBrush ImageSource="sucrose.png"/>
         </Grid.Background>
 
-        <Label Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Trebuchet MS" 
-        FontWeight="Bold" FontSize="18" Foreground="#1DB954">
+        <Grid.Resources>
+            <!-- Expense Report Data -->
+            <XmlDataProvider x:Key="ExpenseDataSource" XPath="Expenses">
+                <x:XData>
+                    <Expenses xmlns="">
+                        <Person Name="Mike" Department="Legal">
+                            <Expense ExpenseType="Lunch" ExpenseAmount="50" />
+                            <Expense ExpenseType="Transportation" ExpenseAmount="50" />
+                        </Person>
+                        <Person Name="Lisa" Department="Marketing">
+                            <Expense ExpenseType="Document printing"
+          ExpenseAmount="50"/>
+                            <Expense ExpenseType="Gift" ExpenseAmount="125" />
+                        </Person>
+                        <Person Name="John" Department="Engineering">
+                            <Expense ExpenseType="Magazine subscription" 
+         ExpenseAmount="50"/>
+                            <Expense ExpenseType="New machine" ExpenseAmount="600" />
+                            <Expense ExpenseType="Software" ExpenseAmount="500" />
+                        </Person>
+                        <Person Name="Mary" Department="Finance">
+                            <Expense ExpenseType="Dinner" ExpenseAmount="100" />
+                        </Person>
+                    </Expenses>
+                </x:XData>
+            </XmlDataProvider>
+            
+            <DataTemplate x:Key="nameItemTemplate">
+                <Label Content="{Binding XPath=@Name}"/>
+            </DataTemplate>
+
+        </Grid.Resources>
+
+        <Label Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Style="{StaticResource headerTextStyle}">
             bad spotify client
         </Label>
 
-        <Border Grid.Column="0" Grid.Row="0" Height="35" Padding="5" VerticalAlignment="Bottom"  Background="#1DB954">
-            <Label VerticalAlignment="Center"  Foreground="White" >playlist</Label>
+        <Border Grid.Column="0" Grid.Row="0" VerticalAlignment="Bottom"  Style="{StaticResource listHeaderStyle}">
+            <Label Style="{StaticResource listHeaderTextStyle}">playlist</Label>
         </Border>
         
-        <ListBox Name="songListBox" Grid.Column="0" Grid.Row="1" Grid.RowSpan="2">
-            <ListBoxItem>song 1</ListBoxItem>
-            <ListBoxItem>song 2</ListBoxItem>
-            <ListBoxItem>song 3</ListBoxItem>
-            <ListBoxItem>song 5</ListBoxItem>
+        <ListBox Name="peopleListBox" Grid.Column="0" Grid.Row="1" Grid.RowSpan="2"
+            ItemsSource="{Binding Source={StaticResource ExpenseDataSource}, XPath=Person}"
+            ItemTemplate="{StaticResource nameItemTemplate}">
         </ListBox>
 
-        <Label Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Trebuchet MS" 
-        FontWeight="Bold" FontSize="18" Foreground="#1DB954">
+        <Label Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{StaticResource headerTextStyle}">
             song title
         </Label>
 
-
-        <Button Grid.Column="1" Grid.Row="2" Margin="0,10,0,0" Width="125" Height="25" HorizontalAlignment="Center">
+        <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Click="Login" Style="{StaticResource buttonStyle}">
             play/paws
         </Button>
 
-        <Button Grid.Column="1" Grid.Row="3" Margin="0,10,0,0" Width="125" Height="25" HorizontalAlignment="Right" Click="Button_Click">
+        <Button Grid.Column="1" Grid.Row="3" Click="Button_Click" Style="{StaticResource buttonStyle}">
             Queue
         </Button>
     </Grid>

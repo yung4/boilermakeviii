@@ -133,6 +133,21 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\breach.png" />
+    <Content Include="Assets\brimstone.png" />
+    <Content Include="Assets\cypher.png" />
+    <Content Include="Assets\jett.png" />
+    <Content Include="Assets\killjoy.png" />
+    <Content Include="Assets\omen.png" />
+    <Content Include="Assets\phoenix.png" />
+    <Content Include="Assets\raze.png" />
+    <Content Include="Assets\reyna.png" />
+    <Content Include="Assets\sage.png" />
+    <Content Include="Assets\skye.png" />
+    <Content Include="Assets\sova.png" />
+    <Content Include="Assets\valorant_logo.png" />
+    <Content Include="Assets\viper.png" />
+    <Content Include="Assets\yoru.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -161,7 +176,7 @@
       <Version>5.3.200605002</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
-      <Version>6.2.10</Version>
+      <Version>6.2.11</Version>
     </PackageReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

@@ -6,5 +6,5 @@
         xmlns:local="clr-namespace:SpotifyOverlay"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="500" Source="Home.xaml">
-    
+
 </NavigationWindow>

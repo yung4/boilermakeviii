@@ -17,3 +17,6 @@ C:\Users\chris\Github\boilermakeviii\SpotifyOverlay\SpotifyOverlay\SpotifyOverla
 C:\Users\chris\Github\boilermakeviii\SpotifyOverlay\SpotifyOverlay\SpotifyOverlay\obj\Debug\Queue.g.cs
 C:\Users\chris\Github\boilermakeviii\SpotifyOverlay\SpotifyOverlay\SpotifyOverlay\obj\Debug\Home.baml
 C:\Users\chris\Github\boilermakeviii\SpotifyOverlay\SpotifyOverlay\SpotifyOverlay\obj\Debug\Queue.baml
+C:\Users\chris\Github\boilermakeviii\SpotifyOverlay\SpotifyOverlay\SpotifyOverlay\obj\Debug\App.baml
+C:\Users\chris\Github\boilermakeviii\SpotifyOverlay\SpotifyOverlay\SpotifyOverlay\obj\Debug\Login.g.cs
+C:\Users\chris\Github\boilermakeviii\SpotifyOverlay\SpotifyOverlay\SpotifyOverlay\obj\Debug\Login.baml

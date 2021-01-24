@@ -1,0 +1,95 @@
+﻿<Page
+    x:Class="widgetAttemptOne.Widget1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:widgetAttemptOne"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Height="200"
+    Width="400">
+
+    <Grid>
+
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="180" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <!--
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/sucrose.png"/>
+        </Grid.Background> 
+        -->
+
+        <!-- Album Art -->
+        <Image Width="75" Source="Assets/absenceSideA.jpg" />
+
+        <!-- Song Info -->
+        <StackPanel
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            Orientation="Vertical"
+            Padding="5,0,0,0"
+            Grid.Column="1" Grid.ColumnSpan="2">
+
+            <TextBlock Padding="0,0,0,5" FontSize="20" Text="Song Title" />
+            <TextBlock Padding="0,0,0,5" FontSize="15" Text="Artist" />
+        </StackPanel>
+
+        <StackPanel
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Orientation="Horizontal"
+            Grid.Row="1"
+            Grid.Column="0" Grid.ColumnSpan="3">
+
+            <Button>
+                shuffle
+            </Button>
+            <Button>
+                prev
+            </Button>
+            <Button>
+                play/paws
+            </Button>
+            <Button>
+                next
+            </Button>
+            <Button x:ConnectionId='3'                 >
+                dropdown
+            </Button>
+        </StackPanel>
+
+        <Grid x:ConnectionId='2' Name="dropdown" Visibility="{Binding Path=this.visible}" Grid.Row="2" Grid.ColumnSpan="3">
+            <ListBox>
+                <ListBoxItem>
+                    song 1
+                </ListBoxItem>
+                <ListBoxItem>
+                    song 2
+                </ListBoxItem>
+                <ListBoxItem>
+                    song 3
+                </ListBoxItem>
+                <ListBoxItem>
+                    song 4
+                </ListBoxItem>
+                <ListBoxItem>
+                    song 5
+                </ListBoxItem>
+            </ListBox>
+        </Grid>
+    </Grid>
+
+    
+</Page>
+

@@ -30,5 +30,11 @@ namespace SpotifyOverlay
             Queue queue = new Queue();
             this.NavigationService.Navigate(queue);
         }
+
+        private void Login(object sender, RoutedEventArgs e)
+        {
+            Login login = new Login();
+            this.NavigationService.Navigate(login);
+        }
     }
 }
