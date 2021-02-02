@@ -1,6 +1,8 @@
 # boilermakeviii
 # Valorant Random Agent Select
 
+https://devpost.com/software/valorant-random-agent-picker-overlay
+
 Ever felt indecisive about which agent to pick in Valorant? Look no further. The Valorant Random Agent Picker Overlay utilizes the Windows Game Bar for easy access to help cure your indecision.
 
 ## Inspiration
@@ -22,4 +24,4 @@ We are very proud that we were able to get the widget into Windows Game Bar, sin
 We learned a little bit of XAML and C#. We also became more familiar with Visual Studio and the tools Microsoft provides developers.
 
 ## What's next for Valorant Random Agent Picker Overlay
-We may add options for blacklisting certain agents or only picking a
+We may add options for blacklisting certain agents or only picking a certain type of agent.
